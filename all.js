@@ -64,10 +64,10 @@ const app = {
     data() {
         return {
             products,
-            tempProduct: {} //將products 放到tempProduct 暫存區 用於存取查看單一產品資料
-
-        }
+            tempProduct: {}, //將products 放到tempProduct 暫存區 用於存取查看單一產品資料
+        };
     },
-}
+};
 
-createApp(app).mount('#app')
+createApp(app).mount('#app');
+
